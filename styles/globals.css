@@ -1,0 +1,44 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  section {
+    @apply bg-transGrey pt-[180px] xs:pt-[150px] sm:pt-[150px] xxl:px-[768px] xl:px-[256px] lg:px-[128px] md:px-[64px] sm:px-[40px] xs:px-[24px] grid xxl:grid-cols-12 xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-8 sm:grid-cols-4 xs:grid-cols-4 gap-[24px] xs:gap-[16px] text-white;
+  }
+}
+
+@layer components {
+  .full-col {
+    @apply xxl:col-span-12 xl:col-span-12 lg:col-span-12 md:col-span-8 sm:col-span-4 xs:col-span-4 col-start-1 flex justify-center;
+  }
+  .gradient {
+    background: linear-gradient(to right, #42bf2b, transparent);
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
