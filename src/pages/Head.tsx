@@ -35,7 +35,7 @@ export default function Head() {
 
   return (
     <div>
-      {brands?.map((brand, i) => {
+      {/* {brands?.map((brand, i) => {
         return (
           <div key={i}>
             <button
@@ -47,7 +47,7 @@ export default function Head() {
             </button>
           </div>
         );
-      })}
+      })} */}
 
       <div style={{ background: "#ffffff", padding: "16px", gap: "10px" }}>
         <input
