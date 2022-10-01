@@ -9,11 +9,6 @@ export default function Header() {
   const [scroll, setScroll] = useState("");
   const [mobile, setMobile] = useState(false);
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     setScroll(window.scrollY > 20);
-  //   });
-  // }, []);
   return (
     <div
       className={`${
