@@ -11,11 +11,11 @@ import phoneFilled from "@iconify/icons-carbon/phone-filled";
 export default function DropMobile() {
   const [scroll, setScroll] = useState();
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 20);
-    });
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     setScroll(window.scrollY > 20);
+  //   });
+  // }, []);
   return (
     <div className="bg-white w-[200px] h-screen rounded-l-xl duration-300 flex flex-col items-center justify-center gap-[20px]">
       <a href="#services">
