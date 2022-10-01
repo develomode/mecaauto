@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "react-scripts --max_old_space_size=4096 build && next export",
     "start": "next start",
     "lint": "next lint"
   },
