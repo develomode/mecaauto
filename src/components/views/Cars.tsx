@@ -8,7 +8,7 @@ import Button from "../ui/Button";
 
 export default function Cars() {
   return (
-    <section className="w-screen pb-[100px] gap-[32px]" id="cars">
+    <section className="w-screen py-[100px] gap-[32px]" id="cars">
       <div className="flex flex-col items-start full-col gap-[12px] text-center text-darkGrey">
         <h1 className="text-3xl font-bold text-center">Voitures Disponibles</h1>
       </div>

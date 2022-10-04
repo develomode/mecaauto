@@ -9,6 +9,7 @@ import Services from "../components/views/Services";
 import Cars from "../components/views/Cars";
 import Adress from "../components/views/Adress";
 import Contact from "../components/views/Contact";
+import More from "../components/views/More";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <Separator />
       <Services />
       <Cars />
+      <More />
       <Adress />
       <Contact />
       <Footer />
