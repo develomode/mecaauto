@@ -15,7 +15,7 @@ export default function Contact() {
           Nous sommes à votre disposition pour toute autre information
           suplémentaire
         </p>
-        <div className="flex gap-[100px] sm:gap-[48px] sm:flex-col xm:flex-col items-center justify-center ">
+        <div className="flex xs:flex-col gap-[100px] sm:gap-[48px] sm:flex-col xm:flex-col items-center justify-center ">
           <a href="tel:0769368328">
             <div className="flex flex-col items-center duration-300 cursor-pointer jsutify-center hover:text-green  hover:rotate-[-2deg] gap-[2px] hover:gap-[5px]">
               <Icon icon={phoneFill} className="w-[50px] h-[50px]" />
@@ -23,12 +23,14 @@ export default function Contact() {
               <h1>07 69 36 83 28</h1>
             </div>
           </a>
-          <div className="flex flex-col items-center duration-300 cursor-pointer jsutify-center hover:text-green  gap-[2px] hover:gap-[5px]">
-            <Icon icon={navigation2Fill} className="w-[50px] h-[50px]" />
-            <h1 className="font-extrabold">Rendez-vous au garage</h1>
-            <h1 className="">19 RUE JEAN DE LA FONTAINE</h1>
-            <h1 className="">REBAIS 77510</h1>
-          </div>
+          <a href="#adress">
+            <div className="flex flex-col items-center duration-300 cursor-pointer jsutify-center hover:text-green  gap-[2px] hover:gap-[5px]">
+              <Icon icon={navigation2Fill} className="w-[50px] h-[50px]" />
+              <h1 className="font-extrabold">Rendez-vous au garage</h1>
+              <h1 className="">19 RUE JEAN DE LA FONTAINE</h1>
+              <h1 className="">REBAIS 77510</h1>
+            </div>
+          </a>
           <a href="mailto:mecarebais@gmail.com">
             <div className="flex flex-col items-center duration-300 cursor-pointer jsutify-center hover:text-green hover:rotate-[2deg]  gap-[2px] hover:gap-[5px]">
               <Icon icon={emailFill} className="w-[50px] h-[50px]" />

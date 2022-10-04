@@ -28,10 +28,16 @@ export default function Services() {
       className="bg-transGrey h-full w-screen grid grid-cols-12 gap-[24px] xxl:px-[768px] xl:px-[256px] lg:px-[128px] md:px-[64px] sm:px-[40px] xs:px-[24px] pt-[70px] relative  text-darkGrey"
       id="services"
     >
+      <div className="flex sm:flex-col xs:flex-col items-center col-span-12 col-start-1 gap-[12px] text-center text-darkGrey sm:col-span-12">
+        <h1 className="text-3xl font-bold text-center">Nos Services</h1>
+        <i>
+          <h2 className="text-2xl">simples, rapides et efficaces !</h2>
+        </i>
+      </div>
       {/* Services */}
-      <div className="col-span-12 bg-white rounded-lg px-[50px] py-[50px] flex items-center justify-center gap-[20px] flex-wrap">
+      <div className="col-span-12 bg-white rounded-lg px-[50px] py-[50px] flex items-center justify-center gap-[48px] overflow-scroll">
         {/* Entretien */}
-        <div className=" w-[300px] h-[400px] flex flex-col items-center justify-center gap-[10px]">
+        <div className=" w-[300px] h-[400px] flex flex-col items-center justify-center gap-[10px] xs:ml-[900px] sm:ml-[900px] md:ml-[700px] ml-[400px]">
           <div className="w-[200px] h-[200px] overflow-hidden rounded-[999px] shadow-lg">
             <div className="w-full h-full scale-150 rounded-[999px] overflow-hidden flex items-center justify-center shadow-lg ml-[50px]">
               <Image src={entretien} alt="entretien" className="scale-125" />
