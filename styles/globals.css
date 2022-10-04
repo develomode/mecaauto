@@ -8,7 +8,7 @@
 
 @layer base {
   section {
-    @apply bg-transGrey pt-[180px] xs:pt-[150px] sm:pt-[150px] xxl:px-[768px] xl:px-[256px] lg:px-[128px] md:px-[64px] sm:px-[40px] xs:px-[24px] grid xxl:grid-cols-12 xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-8 sm:grid-cols-4 xs:grid-cols-4 gap-[24px] xs:gap-[16px] text-white;
+    @apply bg-transGrey xxl:px-[768px] xl:px-[256px] lg:px-[128px] md:px-[64px] sm:px-[40px] xs:px-[24px] grid xxl:grid-cols-12 xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-8 sm:grid-cols-4 xs:grid-cols-4 text-white;
   }
 }
 

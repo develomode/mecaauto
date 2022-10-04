@@ -6,8 +6,14 @@ import { useEffect, useState } from "react";
 import DropMobile from "./DropMobile";
 
 export default function Header() {
-  const [scroll, setScroll] = useState("");
+  const [scroll, setScroll] = useState(false);
   const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 10);
+    });
+  }, []);
 
   return (
     <div
@@ -20,7 +26,7 @@ export default function Header() {
           Meca Auto
         </h1>
       </Link>
-      <div className="flex gap-[25px] sm:hidden">
+      <div className="flex gap-[25px] xs:hidden sm:hidden">
         <a href="#services">
           <div
             className={`${
@@ -59,7 +65,7 @@ export default function Header() {
         </a>
       </div>
       {/* Burger Menu */}
-      <div className="hidden sm:flex">
+      <div className="hidden xs:flex sm:flex">
         <div
           className="flex flex-col gap-[5px] cursor-pointer h-[14px] w-[18px] relative items-center justify-center"
           onClick={() => {
