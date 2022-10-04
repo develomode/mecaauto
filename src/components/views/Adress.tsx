@@ -29,32 +29,14 @@ export default function Adress() {
         </div>
       </div>
       <div className="flex items-center justify-start gap-[18px] full-col z-30 xs:text-center sm:text-center xm:text-center">
-        <Icon
-          icon={navigation2Fill}
-          className="w-[40px] h-[40px] xs:hidden sm:hidden xm:hidden"
-        />
-        <h1 className="text-[32px] xs:text-[24px] sm:text-[24px] font-[800]">
-          Adresse <span className=" xs:hidden sm:hidden xm:hidden">-</span> Meca
-          Auto
+        <h1 className="text-[32px] xs:text-[24px] sm:text-[24px] font-[800] xs:hidden sm:hidden">
+          Adresse
         </h1>
         <h1 className="text-[16px] mt-[5px] font-[800]">
           19 RUE JEAN DE LA FONTAINE - REBAIS 77510
         </h1>
       </div>
-      <div className="z-30 col-span-11 xs:col-span-4  sm:col-span-4  md:col-span-8 col-start-1 overflow-hidden duration-300 bg-black shadow-2xl rounded-r-2xl border-white border-[5px]">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.3822488926685!2d3.238243815569418!3d48.850920909186684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8c639e00e97af%3A0xb094ab78994eba40!2s19%20Av.%20Jean%20de%20la%20Fontaine%2C%2077510%20Rebais%2C%20France!5e0!3m2!1sfr!2sro!4v1663936835815!5m2!1sfr!2sro"
-          width="1800"
-          height="450"
-          loading="lazy"
-          className="duration-300 rounded-r-2xl opacity-70 hover:opacity-100"
-        ></iframe>
-      </div>
-      <div className="full-col mt-[25px] gap-[48px] flex overflow-scroll justify-start z-30">
-        <div className="flex flex-col items-start justify-center full-col xs:hidden sm:hidden xm:hidden">
-          <h1 className="text-[24px] font-[800]">Horaires</h1>
-          <h1 className="text-[16px] font-[800]">Meca Auto</h1>
-        </div>
+      <div className="full-col my-[25px]  gap-[48px] flex overflow-scroll justify-start z-30">
         <div className="flex gap-[24px]">
           <div className="text-center w-[100px]">
             <h1 className="text-[24px] font-extrabold">Lundi</h1>
@@ -77,6 +59,15 @@ export default function Adress() {
             <h2>8h30 - 18h</h2>
           </div>
         </div>
+      </div>
+      <div className="z-30 col-span-11 xs:col-span-4  sm:col-span-4  md:col-span-8 col-start-1 overflow-hidden duration-300 bg-black shadow-2xl rounded-r-2xl border-white border-[5px]">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.3822488926685!2d3.238243815569418!3d48.850920909186684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8c639e00e97af%3A0xb094ab78994eba40!2s19%20Av.%20Jean%20de%20la%20Fontaine%2C%2077510%20Rebais%2C%20France!5e0!3m2!1sfr!2sro!4v1663936835815!5m2!1sfr!2sro"
+          width="1800"
+          height="450"
+          loading="lazy"
+          className="duration-300 rounded-r-2xl opacity-70 hover:opacity-100"
+        ></iframe>
       </div>
     </section>
   );

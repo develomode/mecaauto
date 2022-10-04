@@ -20,7 +20,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <p className="col-span-4 col-start-1 sm:col-span-2 xs:col-span-2">
+        <p className="col-span-4 col-start-1 sm:col-span-2 xs:col-span-2 mb-[32px]">
           ”Spécialiste pour la réparation et l’entretien des voitures et
           utilitaires toutes marques„
         </p>
