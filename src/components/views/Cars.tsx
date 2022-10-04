@@ -14,8 +14,8 @@ export default function Cars() {
       </div>
       {/* Opel Meriva */}
       <div className="flex col-span-6 col-start-1 overflow-hidden duration-300 bg-white cursor-pointer md:col-span-4 sm:col-span-4 xs:col-span-4 rounded-xl hover:shadow-lg ">
-        <div className="w-[200px] h-[200px] overflow-hidden">
-          <Image src={opel} alt="opel" />
+        <div className="w-[200px] h-[200px]">
+          <Image src={opel} alt="opel" className="w-[200px] h-[200px]" />
         </div>
         <div className="py-[16px] px-[32px] flex flex-col justify-between text-darkGrey">
           <div className="">
@@ -33,14 +33,12 @@ export default function Cars() {
       </div>
       {/* Peugeot 207 */}
       <div className="flex col-span-6 overflow-hidden duration-300 bg-white shadow-sm cursor-pointer xs:col-start-1 sm:col-start-1 md:col-span-4 sm:col-span-4 xs:col-span-4 rounded-xl hover:shadow-lg ">
-        <div className="w-[200px] h-[200px] overflow-hidden">
+        <div className="w-[200px] h-[200px]">
           <Image src={peugeot} alt="opel" />
         </div>
         <div className="py-[16px] px-[32px] flex flex-col justify-between text-darkGrey">
           <div className="">
-            <h1 className="text-2xl font-bold text-darkGrey">
-              Peugeot 307 Phase 2
-            </h1>
+            <h1 className="text-2xl font-bold text-darkGrey">Peugeot 307</h1>
             <h2>essence</h2>
             <h2 className="text-xl">2990€</h2>
             <br />
