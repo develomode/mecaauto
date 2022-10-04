@@ -3,7 +3,7 @@ import Image from "next/image";
 
 // Car Images
 import opel from "../../../public/images/cars/opelMerviva/imageFour.jpeg";
-import peugeot from "../../../public/images/cars/peugeot207/imageTwo.jpeg";
+import peugeot from "../../../public/images/cars/peugeot207/imageOne.jpeg";
 import Button from "../ui/Button";
 
 export default function Cars() {
