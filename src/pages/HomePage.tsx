@@ -17,7 +17,7 @@ export default function HomePage() {
       <HeadView />
       <Separator />
       <Services />
-      {/* <Cars /> */}
+      <Cars />
       <Adress />
       <Contact />
       <Footer />

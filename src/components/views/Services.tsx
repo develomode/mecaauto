@@ -16,9 +16,6 @@ import mecanique from "../../../public/images/mecanique.jpeg";
 import diagnostic from "../../../public/images/diagnostic.jpg";
 import carosserie from "../../../public/images/carosserie.jpg";
 import parebrise from "../../../public/images/parebrise.jpeg";
-import equilibrage from "../../../public/images/equilibrage.jpeg";
-import paralelisme from "../../../public/images/paralelisme.jpg";
-import vidange from "../../../public/images/vidange.jpg";
 import pneus from "../../../public/images/pneus.jpg";
 
 export default function Services() {
@@ -35,7 +32,7 @@ export default function Services() {
         </i>
       </div>
       {/* Services */}
-      <div className="col-span-12 bg-white rounded-lg px-[50px] flex items-center justify-center gap-[48px] overflow-scroll">
+      <div className="col-span-12 bg-white shadow-sm rounded-lg px-[50px] flex items-center justify-center gap-[48px] overflow-scroll">
         {/* Entretien */}
         <div className=" w-[300px] h-[400px] flex flex-col items-center justify-center gap-[10px] xs:ml-[1200px] sm:ml-[1100px] md:ml-[900px] ml-[400px]">
           <div className="w-[200px] h-[200px] overflow-hidden rounded-[999px] shadow-lg">

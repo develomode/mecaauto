@@ -38,22 +38,26 @@ export default function DropMobile() {
           <h3 className="text-lg font-bold">Voitures</h3>
         </div>
       </a>
-      <div
-        className={`${
-          scroll ? " hover:text-darkGrey" : "hover:text-white"
-        } text-green flex items-center rounded-md hover:gap-[5px] gap-[10px] duration-300 cursor-pointer`}
-      >
-        <Icon icon={locationFilled} className="w-[20px] h-[20px]" />
-        <h3 className="text-lg font-bold">Adresse</h3>
-      </div>
-      <div
-        className={`${
-          scroll ? " hover:text-darkGrey" : "hover:text-white"
-        } text-green flex items-center rounded-md hover:gap-[5px] gap-[10px] duration-300 cursor-pointer`}
-      >
-        <Icon icon={phoneFilled} className="w-[20px] h-[20px]" />
-        <h3 className="text-lg font-bold">Contact</h3>
-      </div>
+      <a href="#adress">
+        <div
+          className={`${
+            scroll ? " hover:text-darkGrey" : "hover:text-white"
+          } text-green flex items-center rounded-md hover:gap-[5px] gap-[10px] duration-300 cursor-pointer`}
+        >
+          <Icon icon={locationFilled} className="w-[20px] h-[20px]" />
+          <h3 className="text-lg font-bold">Adresse</h3>
+        </div>
+      </a>
+      <a href="#contact">
+        <div
+          className={`${
+            scroll ? " hover:text-darkGrey" : "hover:text-white"
+          } text-green flex items-center rounded-md hover:gap-[5px] gap-[10px] duration-300 cursor-pointer`}
+        >
+          <Icon icon={phoneFilled} className="w-[20px] h-[20px]" />
+          <h3 className="text-lg font-bold">Contact</h3>
+        </div>
+      </a>
     </div>
   );
 }

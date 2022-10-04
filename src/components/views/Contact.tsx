@@ -24,7 +24,7 @@ export default function Contact() {
             </div>
           </a>
           <a href="#adress">
-            <div className="flex flex-col items-center duration-300 cursor-pointer jsutify-center hover:text-green  gap-[2px] hover:gap-[5px]">
+            <div className="flex flex-col items-center duration-300 cursor-pointer jsutify-center hover:text-green  gap-[2px]">
               <Icon icon={navigation2Fill} className="w-[50px] h-[50px]" />
               <h1 className="font-extrabold">Rendez-vous au garage</h1>
               <h1 className="">19 RUE JEAN DE LA FONTAINE</h1>
