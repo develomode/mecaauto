@@ -2,6 +2,9 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+// Motion
+import { motion } from "framer-motion";
+
 // Shared
 import DropMobile from "./DropMobile";
 
@@ -33,7 +36,12 @@ export default function Header() {
               scroll ? " hover:text-darkGrey" : "hover:text-white"
             } text-green flex flex-col items-center rounded-md hover:gap-[5px] gap-[2px] duration-300 cursor-pointer`}
           >
-            <h3 className="text-sm font-bold">Services</h3>
+            <motion.h3
+              whileHover={{ scale: 1.1 }}
+              className="text-sm font-bold"
+            >
+              Services
+            </motion.h3>
           </div>
         </a>
         <a href="#cars">
@@ -42,7 +50,12 @@ export default function Header() {
               scroll ? " hover:text-darkGrey" : "hover:text-white"
             } text-green flex flex-col items-center rounded-md hover:gap-[5px] gap-[2px] duration-300 cursor-pointer`}
           >
-            <h3 className="text-sm font-bold">Voitures</h3>
+            <motion.h3
+              whileHover={{ scale: 1.1 }}
+              className="text-sm font-bold"
+            >
+              Voitures
+            </motion.h3>
           </div>
         </a>
         <a href="#adress">
@@ -51,7 +64,12 @@ export default function Header() {
               scroll ? " hover:text-darkGrey" : "hover:text-white"
             } text-green flex flex-col items-center rounded-md hover:gap-[5px] gap-[2px] duration-300 cursor-pointer`}
           >
-            <h3 className="text-sm font-bold">Adresse</h3>
+            <motion.h3
+              whileHover={{ scale: 1.1 }}
+              className="text-sm font-bold"
+            >
+              Adresse
+            </motion.h3>
           </div>
         </a>
         <a href="#contact">
@@ -60,7 +78,12 @@ export default function Header() {
               scroll ? " hover:text-darkGrey" : "hover:text-white"
             } text-green flex flex-col items-center rounded-md hover:gap-[5px] gap-[2px] duration-300 cursor-pointer`}
           >
-            <h3 className="text-sm font-bold">Contact</h3>
+            <motion.h3
+              whileHover={{ scale: 1.1 }}
+              className="text-sm font-bold"
+            >
+              Contact
+            </motion.h3>
           </div>
         </a>
       </div>

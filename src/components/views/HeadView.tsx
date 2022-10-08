@@ -1,6 +1,9 @@
 // Next Tools
 import Image from "next/image";
 
+// Motion
+import { motion } from "framer-motion";
+
 // Images
 import avatacar from "../../../public/images/avatacar.svg";
 
@@ -13,7 +16,12 @@ import navigation2Fill from "@iconify/icons-eva/navigation-2-fill";
 export default function HeadView() {
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-cover bg-mechanic gap-[24px]">
-      <div className="flex flex-col items-center py-[32px] px-[16px] shadow-xl full-col bg-green rounded-xl relative h-[200px] w-full">
+      <motion.div
+        animate={{ y: 50, opacity: 1 }}
+        initial={{ opacity: 0 }}
+        transition={{ type: "tween", duration: 2 }}
+        className="flex flex-col items-center py-[32px] px-[16px] shadow-xl full-col bg-green rounded-xl relative h-[200px] w-full"
+      >
         {/* Avatacar */}
         <div className="absolute w-[200px] xs:w-[100px] sm:w-[100px] md:w-[150px] h-[65px] xs:h-[40px] sm:h-[40px] md:h-[50px] sm:right-[20px] right-[40px] xs:top-[-35px]  sm:top-[-35px] top-[-40px] bg-transGrey p-[10px] rounded-xl shadow-md">
           <Image src={avatacar} alt="avatacar" />
@@ -24,7 +32,7 @@ export default function HeadView() {
         <h2 className="text-2xl xs:text-[16px] sm:text-[16px] font-extrabold text-white drop-shadow-md text-center">
           REPARATION, ENTRETIEN, CARROSERIE
         </h2>
-      </div>
+      </motion.div>
       <div className="flex items-start justify-between w-full xs:flex-col sm:flex-col">
         <div className="col-span-5 mt-[50px]">
           <div className="">
