@@ -27,9 +27,9 @@ export default function Footer() {
 
         <h5 className="full-col text-[12px] mb-[5px]">
           © copyright &nbsp; <b>Meca Auto </b> &nbsp;2022 - Développé par &nbsp;
-          <Link href="https://www.linkedin.com/in/david-ruscuta-b63908227/">
+          <Link href="https://www.instagram.com/dev.code_/">
             <a target="_blank">
-              <b className="cursor-pointer">@DevMode </b>
+              <b className="cursor-pointer">@DevCode </b>
             </a>
           </Link>{" "}
           &nbsp;

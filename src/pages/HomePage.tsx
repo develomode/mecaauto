@@ -19,7 +19,6 @@ export default function HomePage() {
       <Separator />
       <Services />
       <Cars />
-      <More />
       <Adress />
       <Contact />
       <Footer />

@@ -13,7 +13,7 @@ export default function Cars() {
         <h1 className="text-3xl font-bold text-center">Voitures Disponibles</h1>
       </div>
       {/* Opel Meriva */}
-      <div className="flex col-span-6 col-start-1 overflow-hidden duration-300 bg-white cursor-pointer md:col-span-4 sm:col-span-4 xs:col-span-4 rounded-xl hover:shadow-lg ">
+      <div className="flex col-span-4 col-start-1 overflow-hidden duration-300 bg-white cursor-pointer md:col-span-4 sm:col-span-4 xs:col-span-4 rounded-xl hover:shadow-lg ">
         <div className="w-[200px] h-[200px]">
           <Image src={opel} alt="opel" className="w-[200px] h-[200px]" />
         </div>
@@ -32,7 +32,7 @@ export default function Cars() {
         </div>
       </div>
       {/* Peugeot 207 */}
-      <div className="flex col-span-6 overflow-hidden duration-300 bg-white shadow-sm cursor-pointer xs:col-start-1 sm:col-start-1 md:col-span-4 sm:col-span-4 xs:col-span-4 rounded-xl hover:shadow-lg ">
+      <div className="flex col-span-4 overflow-hidden duration-300 bg-white shadow-sm cursor-pointer xs:col-start-1 sm:col-start-1 md:col-span-4 sm:col-span-4 xs:col-span-4 rounded-xl hover:shadow-lg ">
         <div className="w-[200px] h-[200px]">
           <Image src={peugeot} alt="opel" />
         </div>
@@ -48,6 +48,21 @@ export default function Cars() {
               <Button label="Je suis intéressé" />
             </a>
           </div>
+        </div>
+      </div>
+      <div className="col-span-4 flex flex-col items-center gap-[10px] justify-center mt-[25px] mb-[50px]">
+        <h1 className="flex items-center gap-[10px] text-darkGrey">
+          Besoin de plus d&apos;information ?
+        </h1>
+        <div className="flex flex-col gap-[12px] items-center">
+          <h1 className="text-2xl font-bold xs:hidden sm:hidden text-darkGrey">
+            Contactez-nous
+          </h1>
+          <a href="tel:0769368328">
+            <span className=" text-xl font-bold flex items-center justify-center cursor-pointer hover:shadow-lg duration-300 bg-green hover:bg-lightGrey hover:text-green text-white px-[12px] py-[8px] rounded-xl hover:ring-4 hover:ring-green ">
+              07 69 36 83 28
+            </span>
+          </a>
         </div>
       </div>
     </section>
